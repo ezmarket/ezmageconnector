@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+  <global>
+    <events>
+      <catalog_product_save_after>
+        <observers>
+          <ez_catalog_product_observer>
+            <type>singleton</type>
+            <class>Ez_Catalog_Model_Product_Observer</class>
+            <method>catalog_product_save_after</method>
+          </ez_catalog_product_observer>
+        </observers>
+      </catalog_product_save_after>
+    </events>
+  </global>
+</config>
