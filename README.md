@@ -35,8 +35,10 @@ Magento Connector Prototype
 1. Configure settings in the extension/ezmageconnector/settings/magento.ini
    ```ini
    [ContentSettings]
-   RootNodeID=2 # Setting that controls where new products will be created
-   ProductContentClass=magento_product # Content class for Magento objects
+   # Setting that controls where new products will be created
+   RootNodeID=2
+   # Content class for Magento objects
+   ProductContentClass=magento_product 
    ```
    ```ini
    [RESTSettings]
@@ -52,6 +54,7 @@ Magento Connector Prototype
    ```
 
 2. REST calls
+
    Calls from Magento should be sent as POST request to eZ Publish REST endpoint as:
    http://example.com/api/ezmage/v1/product/create
 
