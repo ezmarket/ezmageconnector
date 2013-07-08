@@ -1,0 +1,4 @@
+ezmageconnector
+===============
+
+Magento Connector Prototype
