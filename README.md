@@ -42,7 +42,8 @@ Magento Connector Prototype
    ```
    ```ini
    [RESTSettings]
-   BaseURL=http://magento.local/api/rest # Path to the Magento REST API
+   # Path to the Magento REST API
+   BaseURL=http://magento.local/api/rest
    ```
    ```ini
    # OAuth settings, this params should be taken from Magento administration interface once eZ Publish is registered as an application
@@ -59,7 +60,7 @@ Magento Connector Prototype
    http://example.com/api/ezmage/v1/product/create
 
    With following post variables:
-   product_id
-   product_name
-   product_description
+   - product_id
+   - product_name
+   - product_description
 
